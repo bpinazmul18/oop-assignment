@@ -9,11 +9,15 @@ class Student {
 
 int main () {
     Student st1;
-    st1.id = "CSE2203027032";
-    st1.name = "Nazmul Haque";
+    
+    cout << "Enter your student's id: ";
+    cin >> st1.id;
+    
+    cout << "Enter your student's name: ";
+    cin >> st1.name;
 
-    cout << "Student id is : " << st1.id << endl;
-    cout << "Student name is : " << st1.name << endl;
+    cout << "Student's id is : " << st1.id << endl;
+    cout << "Student's name is : " << st1.name << endl;
     
     return 0;
 }
