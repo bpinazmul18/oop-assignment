@@ -3,10 +3,12 @@ using namespace std;
 
 class Student {
     public:
-        void printMsg () {
-            cout << "Hello world";
-        }
+        void printMsg ();
 };
+
+void Student::printMsg () {
+    cout << "Hello world";
+}
 
 int main () {
     Student st1;
