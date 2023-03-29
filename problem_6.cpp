@@ -3,7 +3,7 @@ using namespace std;
 
 class MyClass {
 public:
-    void printAddress() {
+    void pointerAdd() {
         cout << "Address of this pointer: " << this << endl;
     }
 };
@@ -11,8 +11,8 @@ public:
 int main() {
     MyClass obj1, obj2;
 
-    obj1.printAddress();
-    obj2.printAddress();
+    obj1.pointerAdd();
+    obj2.pointerAdd();
 
     return 0;
 }
